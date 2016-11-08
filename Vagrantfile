@@ -19,7 +19,7 @@ Vagrant.configure(2) do |config|
   #config.vm.box = "ubuntu_de_201610051341"
   config.vm.box = "kraeml/xenial-64-de"
 
-  config.ssh.insert_key = false
+  # config.ssh.insert_key = false
 
   config.vm.define "ctl" do | ctl |
     ctl.vm.box = "kraeml/ubuntu_de"
