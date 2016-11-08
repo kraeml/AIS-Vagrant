@@ -1,0 +1,5 @@
+.ipynb*
+.vagrant/
+Kap*
+projects/Kap*
+projects/.git*
